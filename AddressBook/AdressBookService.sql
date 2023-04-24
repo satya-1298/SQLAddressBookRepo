@@ -29,3 +29,6 @@ Select*from AddressBook
 
 /*********************UC6**********************/
 Select* from AddressBook where City='Kurnool' or State='Andhra'
+
+/*******************UC7***********************/
+select Count(*) From AddressBook
