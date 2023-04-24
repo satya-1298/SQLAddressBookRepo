@@ -32,3 +32,9 @@ Select* from AddressBook where City='Kurnool' or State='Andhra'
 
 /*******************UC7***********************/
 select Count(*) From AddressBook
+
+/*******************UC8**********************/
+insert into AddressBook values('Komi', 'jagi', ' Suryapet', 'Kakinada', 'AndhraPradesh', 544231, '9678356344', 'cde@gmail.com')
+insert into AddressBook values('devi', 'adapa', 'SuryaNagar', 'Rajmandri', 'Amaravathi', 567231, '5554565757', 'grf@gmail.com')
+
+select* from AddressBook where City='Kakinada' order by FirstName asc
