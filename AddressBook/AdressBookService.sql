@@ -26,3 +26,6 @@ Select*from AddressBook
 /********************UC5*************************/
 delete from AddressBook where FirstName='Satya'
 Select*from AddressBook
+
+/*********************UC6**********************/
+Select* from AddressBook where City='Kurnool' or State='Andhra'
