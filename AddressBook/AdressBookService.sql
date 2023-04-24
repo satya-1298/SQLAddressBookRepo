@@ -14,3 +14,8 @@ Zip int,
 PhoneNumber varchar(20),
 Email varchar(220)
 )
+select*from AddressBook
+/********************UC3*******************/
+insert into AddressBook values('Satya','Adabala','Amalapuram','Hyderabad','Andhra',53423,'9843442312','adc@gmail.com')
+insert into AddressBook values('Vani','Nukala','vizag','vishakapatnam','Andhra',534453,'5624546565','xyz@gmail.com')
+insert into AddressBook values('venky','chellu','Gaya','Bihar','patna',578664,'9454243443','mnp@gmail.com')
