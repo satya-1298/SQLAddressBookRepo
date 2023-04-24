@@ -22,3 +22,7 @@ insert into AddressBook values('venky','chellu','Gaya','Bihar','patna',578664,'9
 /***********************UC4**********************/
 update AddressBook set Address='GandhiNagar',City='Kurnool',State='Andhra',Email='qrs@gmail.com' where FirstName='venky'
 Select*from AddressBook
+
+/********************UC5*************************/
+delete from AddressBook where FirstName='Satya'
+Select*from AddressBook
